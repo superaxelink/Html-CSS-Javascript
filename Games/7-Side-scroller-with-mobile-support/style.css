@@ -1,0 +1,21 @@
+{
+	margin: 0; /*we reset margins and padding to zero to make the borders fit the border of the window*/
+	padding: 0;
+	box-sizing: border-box; /*To make sure element's border it's included in it's total width*/
+}
+body{
+	background: black;
+}
+#canvas1 {
+/*	background: blue; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 5px solid white;
+	max-width: 100%; /*To make the canvas fit into any device in vertical*/
+	max-height: 100%; /*To make the canvas fit into any device in horizontal*/
+}
+#playerImage, #backgroundImage, #enemyImage{
+	display: none;
+}
